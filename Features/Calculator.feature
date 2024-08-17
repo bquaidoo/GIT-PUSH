@@ -8,6 +8,6 @@ Link to a feature: [Calculator](GIT PUSH/Features/Calculator.feature)
 @mytag
 Scenario: Add two numbers
 	Given the first number is 50
-	And the second number is 70
+	And the second number is 77
 	When the two numbers are added
 	Then the result should be 122
