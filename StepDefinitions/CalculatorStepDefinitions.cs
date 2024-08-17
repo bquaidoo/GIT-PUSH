@@ -1,9 +1,7 @@
 
-/// comment
 namespace GIT_PUSH.StepDefinitions
 {
 
-/// devop test commit
     [Binding]
     public sealed class CalculatorStepDefinitions
     {
@@ -26,7 +24,7 @@ namespace GIT_PUSH.StepDefinitions
         {
             //TODO: implement arrange (precondition) logic
 
-            //throw new PendingStepException();
+            throw new PendingStepException();
         }
 
         [When("the two numbers are added")]
@@ -34,7 +32,7 @@ namespace GIT_PUSH.StepDefinitions
         {
             //TODO: implement act (action) logic
 
-           // throw new PendingStepException();
+            throw new PendingStepException();
         }
 
         [Then("the result should be (.*)")]
@@ -42,7 +40,7 @@ namespace GIT_PUSH.StepDefinitions
         {
             //TODO: implement assert (verification) logic
 
-            throw new PendingStepException();
+            //throw new PendingStepException();
         }
     }
 }
