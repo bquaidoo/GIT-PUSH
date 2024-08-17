@@ -12,3 +12,4 @@ Scenario: Add two numbers
 	And the second number is 77
 	When the two numbers are added
 	Then the result should be 122
+ 	And  I verify result is 122
