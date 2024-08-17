@@ -8,7 +8,7 @@ Link to a feature: [Calculator](GIT PUSH/Features/Calculator.feature)
 
 @mytag
 Scenario: Add two numbers
-	Given the first number is 50
+	Given the first number is 5000
 	And the second number is 77
 	When the two numbers are added
 	Then the result should be 122
